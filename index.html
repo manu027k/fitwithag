@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>FitWithAG | Elite Fitness Services</title>
+    <title>FitWithAG</title>
     <meta name="description"
         content="Premium fitness training services including freelance, personal, group, and fat loss training.">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -12,8 +12,9 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;600;800;900&family=Inter:wght@400;500&display=swap"
         rel="stylesheet">
+    <link rel="icon" type="image/x-icon" href="logo.jpeg">
     <link rel="stylesheet" href="style.css">
-    <script src="https://unpkg.com/lucide@latest"></script>
+    <script src="https://cdn.jsdelivr.net/npm/lucide@0.263.1/dist/umd/lucide.min.js"></script>
 </head>
 
 <body>
@@ -30,7 +31,12 @@
                 <li><a href="#contact" class="nav-item">Contact</a></li>
             </ul>
             <div class="menu-toggle" id="menu-toggle">
-                <i data-lucide="menu"></i>
+                <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none"
+                    stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <line x1="4" x2="20" y1="12" y2="12" />
+                    <line x1="4" x2="20" y1="6" y2="6" />
+                    <line x1="4" x2="20" y1="18" y2="18" />
+                </svg>
             </div>
         </div>
     </nav>
@@ -45,7 +51,14 @@
                             class="ag-text">AG</span> provides
                         the exact blueprint for your lifestyle transformation.</p>
                     <div class="hero-actions">
-                        <a href="#services" class="btn-primary">View Services <i data-lucide="arrow-right"></i></a>
+                        <a href="#services" class="btn-primary"
+                            style="display:inline-flex; align-items:center; gap:0.5rem;">View Services <svg
+                                xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24"
+                                fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                stroke-linejoin="round">
+                                <path d="M5 12h14" />
+                                <path d="m12 5 7 7-7 7" />
+                            </svg></a>
                         <a href="#contact" class="btn-secondary">Let's Talk</a>
                     </div>
                     <div class="hero-stats">
@@ -79,38 +92,78 @@
 
                 <div class="service-card group">
                     <div class="card-icon">
-                        <i data-lucide="dumbbell"></i>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none"
+                            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M14.4 14.4 19.6 9.2" />
+                            <path d="M22.5 1.5 21 3" />
+                            <path d="M17 7l-5 5" />
+                            <path d="M9.6 9.6 4.4 14.8" />
+                            <path d="M10 14l-5 5" />
+                            <path d="M1.5 22.5 3 21" />
+                            <path
+                                d="M3.1 3.1l1.4-1.4A2.83 2.83 0 0 1 8.5 1.7L19.5 12.7A2.83 2.83 0 0 1 19.5 16.7L18.1 18.1" />
+                        </svg>
                     </div>
                     <h3>Freelance<br>Training</h3>
                     <p>Flexible, on-demand sessions designed around your busy schedule and location preferences.</p>
-                    <a href="#contact" class="card-link">Start Journey <i data-lucide="chevron-right"></i></a>
+                    <a href="#contact" class="card-link">Start Journey <svg xmlns="http://www.w3.org/2000/svg"
+                            width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="m9 18 6-6-6-6" />
+                        </svg></a>
                 </div>
 
                 <div class="service-card group">
                     <div class="card-icon">
-                        <i data-lucide="user"></i>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none"
+                            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M19 21v-2a4 4 0 0 0-4-4H9a4 4 0 0 0-4 4v2" />
+                            <circle cx="12" cy="7" r="4" />
+                        </svg>
                     </div>
                     <h3>Online Personal<br>Training</h3>
                     <p>1-on-1 customized virtual coaching, diet tracking, and form correction from anywhere.</p>
-                    <a href="#contact" class="card-link">Start Journey <i data-lucide="chevron-right"></i></a>
+                    <a href="#contact" class="card-link">Start Journey <svg xmlns="http://www.w3.org/2000/svg"
+                            width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="m9 18 6-6-6-6" />
+                        </svg></a>
                 </div>
 
                 <div class="service-card group">
                     <div class="card-icon">
-                        <i data-lucide="users"></i>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none"
+                            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2" />
+                            <circle cx="9" cy="7" r="4" />
+                            <path d="M22 21v-2a4 4 0 0 0-3-3.87" />
+                            <path d="M16 3.13a4 4 0 0 1 0 7.75" />
+                        </svg>
                     </div>
                     <h3>Online Group<br>Training</h3>
                     <p>Join a community of driven individuals in high-energy virtual group workout sessions.</p>
-                    <a href="#contact" class="card-link">Start Journey <i data-lucide="chevron-right"></i></a>
+                    <a href="#contact" class="card-link">Start Journey <svg xmlns="http://www.w3.org/2000/svg"
+                            width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="m9 18 6-6-6-6" />
+                        </svg></a>
                 </div>
 
                 <div class="service-card group">
                     <div class="card-icon">
-                        <i data-lucide="flame"></i>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none"
+                            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <path
+                                d="M8.5 14.5A2.5 2.5 0 0 0 11 12c0-1.38-.5-2-1-3-1.072-2.143-.224-4.054 2-6 .5 2.5 2 4.9 4 6.5 2 1.6 3 3.5 3 5.5a7 7 0 1 1-14 0c0-1.153.433-2.294 1-3a2.5 2.5 0 0 0 2.5 2.5z" />
+                        </svg>
                     </div>
                     <h3>Online Fat Loss<br>Training</h3>
                     <p>Specialized, high-intensity programming focused strictly on shredding fat and toning up.</p>
-                    <a href="#contact" class="card-link">Start Journey <i data-lucide="chevron-right"></i></a>
+                    <a href="#contact" class="card-link">Start Journey <svg xmlns="http://www.w3.org/2000/svg"
+                            width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="m9 18 6-6-6-6" />
+                        </svg></a>
                 </div>
 
             </div>
@@ -124,7 +177,12 @@
 
                     <div class="contact-methods">
                         <div class="method">
-                            <div class="icon-box"><i data-lucide="mail"></i></div>
+                            <div class="icon-box"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                    viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                    stroke-linecap="round" stroke-linejoin="round">
+                                    <rect width="20" height="16" x="2" y="4" rx="2" />
+                                    <path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7" />
+                                </svg></div>
                             <div>
                                 <h4>Email Us</h4>
                                 <a href="mailto:fitwithag70@gmail.com">fitwithag70@gmail.com</a>
@@ -155,8 +213,8 @@
                                     <path d="m10 15 5-3-5-3z" />
                                 </svg>
                             </a>
-                            <a href="https://chat.whatsapp.com/KkCJgUX1ipU5R6oOVZRxxa?mode=wwt&utm_source=ig&utm_medium=social&utm_content=link_in_bio&fbclid=PAZXh0bgNhZW0CMTEAc3J0YwZhcHBfaWQMMjU2MjgxMDQwNTU4AAGno9ubSIXRofENXZzHCmG5SbBBGP9LywMQrva-IePXZGOV3x4uy5fjFuZ2CFo_aem_mkIJUoJhc9ybRapz26rFtg"
-                                target="_blank" rel="noopener noreferrer" class="social-btn">
+                            <a href="https://chat.whatsapp.com/KkCJgUX1ipU5R6oOVZRxxa" target="_blank"
+                                rel="noopener noreferrer" class="social-btn">
                                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
                                     fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
                                     stroke-linejoin="round">
@@ -171,16 +229,13 @@
                 </div>
 
                 <div class="contact-form-wrapper">
-                    <form class="contact-form" action="https://formspree.io/f/mreynzpz" method="POST">
+                    <form class="contact-form" action="https://formspree.io/f/YOUR_FORMSPREE_ID_HERE" method="POST">
                         <h3>Send a Message</h3>
                         <div class="input-group">
                             <input type="text" name="name" placeholder="Your Name" required>
                         </div>
                         <div class="input-group">
                             <input type="email" name="email" placeholder="Your Email" required>
-                        </div>
-                        <div class="input-group">
-                            <input type="tel" name="phone" placeholder="Your Phone Number" required>
                         </div>
                         <div class="input-group">
                             <select name="service" required>
@@ -245,8 +300,8 @@
                             <path d="m10 15 5-3-5-3z" />
                         </svg>
                     </a>
-                    <a href="https://chat.whatsapp.com/KkCJgUX1ipU5R6oOVZRxxa?mode=wwt&utm_source=ig&utm_medium=social&utm_content=link_in_bio&fbclid=PAZXh0bgNhZW0CMTEAc3J0YwZhcHBfaWQMMjU2MjgxMDQwNTU4AAGno9ubSIXRofENXZzHCmG5SbBBGP9LywMQrva-IePXZGOV3x4uy5fjFuZ2CFo_aem_mkIJUoJhc9ybRapz26rFtg"
-                        target="_blank" rel="noopener noreferrer" class="social-btn">
+                    <a href="https://chat.whatsapp.com/KkCJgUX1ipU5R6oOVZRxxa" target="_blank" rel="noopener noreferrer"
+                        class="social-btn">
                         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
                             stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
                             <path
